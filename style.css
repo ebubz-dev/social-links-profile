@@ -1,0 +1,67 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter;
+}
+img {
+    width: 20%;
+    height: auto;
+    margin: 40px 0 15px 0;
+    border-radius: 50%;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    color: hsl(0, 0%, 100%);
+}
+p {
+    color: hsl(0, 0%, 100%);
+    border-radius: 7px;
+
+}
+.green {
+    color: hsl(75, 94%, 57%);
+    margin: 5px 0 20px 0;
+    padding: 0;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 12%);
+    width: 400px;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+.button {
+    background-color: hsl(0, 0%, 20%);
+    margin: 15px 30px;
+    padding: 10px 0px;
+    color: hsl(75, 94%, 57%);
+}
+.link {
+    text-decoration: none;
+    color: hsl(75, 94%, 57%);
+}
+.button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 0%);
+    font-weight: 700;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: hsl(75, 94%, 57%);
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+button {
+    display: block;
+}
