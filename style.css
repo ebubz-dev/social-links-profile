@@ -39,11 +39,11 @@ p {
     background-color: hsl(0, 0%, 20%);
     margin: 15px 30px;
     padding: 10px 0px;
-    color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 100%);
 }
 .link {
     text-decoration: none;
-    color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 100%);
 }
 .button:hover {
     background-color: hsl(75, 94%, 57%);
